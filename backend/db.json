@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "851c534f-1e5b-4f1b-b864-8b362dae33c3",
+      "username": "alvin",
+      "passwordHash": "$2a$10$Fc/EkKAbNOTJQJSqyC8qweaeCaFiXg/qF26ME8FJsKvQyg1g8R/hu",
+      "phone": "0725406411",
+      "createdAt": 1785048198048
+    },
+    {
+      "id": "b454224e-395b-45c1-9830-184e4630495f",
+      "username": "Calvin",
+      "passwordHash": "$2a$10$OaesBOKUMfaVjTfnny7oievHb52EKRUfhh3CuBPYvsHa5ftMIQJ6a",
+      "phone": "0768559607",
+      "createdAt": 1785048937218
+    }
+  ],
+  "listings": [
+    {
+      "id": "d219a73c-1204-43fd-8202-9ee5dc236be7",
+      "sellerUsername": "alvin",
+      "category": "Jackets",
+      "title": "Corteiz",
+      "brand": "Corteiz",
+      "size": "L",
+      "condition": "Brand New",
+      "description": "good condition",
+      "price": 2000,
+      "imageUrl": "/uploads/860ecfe8-cdde-46ce-9a99-2cf753d884f5.jpg",
+      "status": "removed",
+      "createdAt": 1785048740508
+    },
+    {
+      "id": "8b864c47-7da2-4624-b0b1-b564fe0ef3c7",
+      "sellerUsername": "alvin",
+      "category": "Tracksuits",
+      "title": "Corteiz",
+      "brand": "Corteiz",
+      "size": "L",
+      "condition": "Brand New",
+      "description": "MINT CONDITION",
+      "price": 4500,
+      "imageUrl": "/uploads/377207b1-43ec-486d-a6cf-c4afe083125d.jpg",
+      "status": "sold",
+      "createdAt": 1785048837694
+    },
+    {
+      "id": "6bd33be6-a2bb-4cf8-9c80-167a7bfe8fbb",
+      "sellerUsername": "alvin",
+      "category": "Unisex Shoes",
+      "title": "rickowens",
+      "brand": "rick owens",
+      "size": "8,9,10",
+      "condition": "Thrifted",
+      "description": "no flwas,slightly worn",
+      "price": 4200,
+      "imageUrl": "/uploads/0712df54-c3e8-4aa7-ba47-a24633e81b13.jpg",
+      "status": "available",
+      "createdAt": 1785049475767
+    }
+  ],
+  "orders": [
+    {
+      "id": "e375bdea-1a95-4b53-8948-58106b44acdd",
+      "listingId": "8b864c47-7da2-4624-b0b1-b564fe0ef3c7",
+      "listingTitle": "Corteiz",
+      "listingCategory": "Tracksuits",
+      "sellerUsername": "alvin",
+      "buyerUsername": "Calvin",
+      "buyerName": "Lydiah Nyaboke",
+      "buyerPhone": "0725406411",
+      "buyerAddress": "Mombasa,nyali ",
+      "payment": "M-Pesa (admin will send a payment request)",
+      "itemPrice": 4500,
+      "deliveryFee": 180,
+      "commission": 450,
+      "sellerPayout": 4050,
+      "total": 4680,
+      "status": "delivered",
+      "paymentStatus": "manual_mpesa",
+      "mpesaCheckoutRequestId": null,
+      "mpesaMerchantRequestId": null,
+      "createdAt": 1785048987295
+    }
+  ]
+}
